@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.container{
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.clearfix::after{
+content: "";
+display: table;
+clear: both;
+}
+
+.product{
+  margin: 20px 5px;
+  display: inline-block;
+}
+
+.img{
+  background-size: cover;
+  background-position: center;
+  height: 462px;
+  width: 320px;
+  position: relative;
+}
+
+.like{
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.like::after{
+  content: "\2665";
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.like:hover{
+  color: red;
+}
+.properties{
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  font-size: .6rem;
+}
+
+.propertie{
+  display: inline-block;
+  color: white;
+  padding: 2px 3px;
+  font-weight: bold;
+}
+
+.discount{
+  background-color:red;
+}
+
+.sostenibilità{
+  background-color: green;
+}
+
+.description{
+  text-align: left;
+  margin-top: 7px;
+}
+
+.brand{
+  font-size: .6rem;
+  color: #6C7B8C;
+}
+
+.type{
+  text-transform: uppercase;
+  font-size: .7rem;
+}
+
+.price{
+  font-size: .6rem;
+}
+
+.normal-price{
+  color: red;
+}
+
+.discount-price{
+  color: #6C7B8C;
+  text-decoration: line-through;
+}
+
+.back{
+  display: none;
+}
+
+.front:hover > .back{
+  display: block;
+}
+
+.first{
+  background-image: url(1.webp);
+}
+
+.first > .back{
+  background-image: url(1b.webp);
+}
+
+.second{
+  background-image: url(2.webp);
+}
+
+.second > .back{
+  background-image: url(2b.webp);
+}
+
+.third{
+  background-image: url(3.webp);
+}
+
+.third > .back{
+  background-image: url(3b.webp);
+}
+
+.fourth{
+  background-image: url(4.webp);
+}
+
+.fourth > .back{
+  background-image: url(4b.webp);
+}
+
+.fifth{
+  background-image: url(5.webp);
+}
+
+.fifth > .back{
+  background-image: url(5b.webp);
+}
+
+.sixth{
+  background-image: url(6.webp);
+}
+
+.sixth > .back{
+  background-image: url(6b.webp);
+}
+
+
